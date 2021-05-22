@@ -9,3 +9,14 @@ After forking this repository, you can make some changes to the project, and sub
 For some more information on how to fork a repository, [check out our guide, "Forking Projects""](http://guides.github.com/overviews/forking/). Thanks! :sparkling_heart:
 
 * Working on branch 'newbranch'
+
+* How to sync your forked repo from main repo
+  1. Go to local directory of forked repo
+  2. Add upstream repo (i.e. main repo) as new remote:
+    - git remote add upstream https://github.com/paranzchoy/Spoon-Knife.git
+  3. Get latest copy of main repo
+    - git fetch upstream
+  4. Merge upstream to local
+    - git merge upstream/master
+  5. Update your remote repo
+    - git push -u origin
