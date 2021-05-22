@@ -20,3 +20,5 @@ For some more information on how to fork a repository, [check out our guide, "Fo
     - git merge upstream/master
   5. Update your remote repo
     - git push -u origin
+
+* Testing fetch upstream button
