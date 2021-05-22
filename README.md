@@ -22,3 +22,5 @@ For some more information on how to fork a repository, [check out our guide, "Fo
     - git push -u origin
 
 * Testing fetch upstream button
+
+* This is a test using a develop branch: raine_develop_branch
